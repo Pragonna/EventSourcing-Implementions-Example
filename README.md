@@ -47,7 +47,7 @@ The key class in this project is the `BankAccount` class, which represents a ban
 ## How It Works
 ### Opening an Account
 ```csharp
-var account = BankAccount.Open("John Doe", 1000);
+var account = BankAccount.Open("Pragonna", 1000);
 ```
 When an account is opened, an `AccountOpenedEvent` is created and applied. This updates the account's state and sets it as active.
 
