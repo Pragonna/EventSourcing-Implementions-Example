@@ -105,7 +105,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var account = BankAccount.Open("Alice", 1000);
+        var account = BankAccount.Open("Pragonna", 1000);
         account.Deposit(500);
         account.Withdraw(200);
 
@@ -129,7 +129,7 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-For questions or feedback, feel free to reach out at your-email@example.com.
+For questions or feedback, feel free to reach out at alizadeemil5@gmail.com.
 
 ---
 
