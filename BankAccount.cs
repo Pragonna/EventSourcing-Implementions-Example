@@ -1,4 +1,4 @@
-﻿using EventSource_Implementation_Behavior.Events;
+using EventSource_Implementation_Behavior.Events;
 
 namespace EventSource_Implementation_Behavior
 {
@@ -71,7 +71,7 @@ namespace EventSource_Implementation_Behavior
 
         }
       
-        public void Apply(Event @event)
+        private void Apply(Event @event)
         {
             switch (@event)
             {
